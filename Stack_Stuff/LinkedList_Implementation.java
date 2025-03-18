@@ -6,9 +6,7 @@ class Node {
         this.val = val;
     }
 }
-
 class Stack {
-
     Node head = null;
     Node temp = head;
     private int size = 0;
@@ -19,7 +17,7 @@ class Stack {
         head = newnode;
         size++;
     }
-
+    
     public int pop() {
         if (head == null) {
             System.out.print("stack is empty ");
@@ -65,8 +63,10 @@ public class LinkedList_Implementation {
 
 
         st.display();
-        // st.pop();
-        // st.pop();
+
+        st.pop();
+        st.display();
+        // st.pop();  
         // st.pop();
 
         // st.pop();
